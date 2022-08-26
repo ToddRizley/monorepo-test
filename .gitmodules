@@ -1,0 +1,6 @@
+[submodule "templates/cookiecutter-templates/template-python"]
+	path = templates/cookiecutter-templates/template-python
+	url = git@github.com:jacebrowning/template-python.git
+[submodule "templates/cookiecutter-templates/go-template"]
+	path = templates/cookiecutter-templates/go-template
+	url = https://github.com/better-go/go-template

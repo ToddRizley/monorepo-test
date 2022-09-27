@@ -1,5 +1,5 @@
 ---
-name: DORA Metrics
+name: DORA Metrics Changed Scorecard
 tag: dora-metrics
 description: >-
   [DORA metrics](https://www.cortex.io/post/understanding-dora-metrics) are used by DevOps teams to measure their performance.
@@ -45,6 +45,6 @@ rules:
     description: Deployment Frequency
     weight: 25
     failureMessage: No deployments in the last 7 days
-# filter:
-#   category: SERVICE
-#   query: has_service_group("production")
+filter:
+  category: SERVICE
+  query: has_service_group("tier-1")

@@ -27,6 +27,6 @@ rules:
     failureMessage: Less than 95% of deployments in the last 7 days were successful
     level: Gold
 
-filter:
-  category: SERVICE
-  query: has_service_group("tier-1")
+# filter:
+#   category: SERVICE
+#   query: has_service_group("tier-1")

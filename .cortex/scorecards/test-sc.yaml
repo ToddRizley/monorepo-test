@@ -29,6 +29,6 @@ rules:
 
 
 
-# filter:
-#   category: SERVICE
-#   query: has_service_group("tier-1")
+filter:
+  # category: SERVICE
+  query: has_service_group("tier-1")

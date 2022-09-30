@@ -34,3 +34,4 @@ info:
   x-cortex-owners:
       - type: group
         name: my-team-is-the-best
+        provider: CORTEX

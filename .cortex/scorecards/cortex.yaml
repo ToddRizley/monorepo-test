@@ -1,0 +1,34 @@
+
+
+##########################################
+##      Cortex configuration file       ##
+##https://docs.cortex.io/docs/reference ##
+##                                      ##
+##                                      ##
+##                                      ##
+##                                      ##
+##                                      ##
+##########################################
+
+## API Spec and Version
+openapi: 3.0.0
+
+# Service Descriptors
+
+# Required fields: info, title, x-cortex-tag
+# Optional fields: description
+info:
+  title: Todd Test Service Fun
+  x-cortex-tag: todd-test-service-fun
+
+
+  # Groups
+
+  # !Groups must contain only alphanumeric characters, and may not contain whitespaces!
+  # Required fields: N/A
+  # Optional fields: N/A
+  x-cortex-groups:
+   - my-group
+   - your-group
+   - we-all-group
+  #

@@ -31,4 +31,6 @@ info:
    - my-group
    - your-group
    - we-all-group
-  #
+  x-cortex-owners:
+      - type: group
+        name: my-team-is-the-best
